@@ -8,7 +8,7 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const port = process.env.PORT || 3000;  
 
-require('dotenv').config();
+
 
 app.use(cookieSession({
     maxAge : 24 * 60 * 60 * 1000,
