@@ -1,7 +1,16 @@
-if (process.env.NODE_ENV === 'production') {
-    // we are in production - return the prod set of keys
-    module.exports = require('./environment/production');
-  } else {
-    // we are in development - return the dev keys!!
-    module.exports = require('./environment/development');
+const keys = {
+  fbKeys : {
+      clientID : '1222979507870990',
+      clientSecret : 'f74a045da8d156cd99dcdc077f596b12',
+  },
+
+  cookieKeys : {
+      keys : 'aksdfjsdakfjsakfjwiersdfasdf',
+  },
+  mongoURL : {
+      connect : 'mongodb+srv://fbAuth:Mohit@321@fbauth-oympy.mongodb.net/test?retryWrites=true'
   }
+}
+
+module.exports = keys;
+
