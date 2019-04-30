@@ -1,14 +1,14 @@
 const keys = {
   fbKeys : {
-      clientID : 'process.env.1222979507870990',
-      clientSecret : 'process.env.f74a045da8d156cd99dcdc077f596b12',
+      clientID : '1222979507870990',
+      clientSecret : 'f74a045da8d156cd99dcdc077f596b12',
   },
 
   cookieKeys : {
-      keys : 'process.env.aksdfjsdakfjsakfjwiersdfasdf',
+      keys : 'aksdfjsdakfjsakfjwiersdfasdf',
   },
   mongoURL : {
-      connect : 'process.env.mongodb+srv://fbAuth:Mohit@321@fbauth-oympy.mongodb.net/test?retryWrites=true'
+      connect : 'mongodb+srv://fbAuth:Mohit@321@fbauth-oympy.mongodb.net/test?retryWrites=true'
   }
 }
 
