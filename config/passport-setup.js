@@ -1,6 +1,6 @@
 const passport = require('passport');
 const FacebookStrategy = require('passport-facebook');
-const keys = require('../keys');
+const keys = require('../herokuKey');
 const User = require('../models/model');
 
 passport.serializeUser((user, done) => {
