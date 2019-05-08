@@ -5,10 +5,10 @@ const keys = {
   },
 
   cookieKeys : {
-      keys : process.env.cookieKeys
+      keys : process.env.cookieKeys,
   },
   mongoURL : {
-      connect : process.env.mongoURL
+      connect : process.env.mongoURL,
   }
 }
 
