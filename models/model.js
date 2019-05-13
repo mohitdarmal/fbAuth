@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const keys = require('../herokuKey');
 
-console.log(keys.mongoURL.connect)
+console.log("mongokey: ", 'mongodb+srv://fbAuth:Mohit@321@fbauth-oympy.mongodb.net/test?retryWrites=true')
 
 mongoose.connect('mongodb+srv://fbAuth:Mohit@321@fbauth-oympy.mongodb.net/test?retryWrites=true', {useNewUrlParser:true});
 
