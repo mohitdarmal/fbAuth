@@ -4,8 +4,9 @@ const routesSetup = require('./routes/routes-setup');
 const passportSetup = require('./config/passport-setup');
 const profileSetup = require('./routes/profile-setup');
 const keys = require('./herokuKey');
+const mongoose = require('mongoose');
 
-// mongoose.connect(keys.mongoURL.connect, {useNewUrlParser:true});
+mongoose.connect(keys.mongoURL.connect, {useNewUrlParser:true});
 
 const cookieSession = require('cookie-session');
 const passport = require('passport'); 
